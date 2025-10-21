@@ -2,9 +2,6 @@ name: Run two Python scripts
 
 # Triggers: on pushes to dev branch and manual runs
 on:
-  push:
-    branches:
-      - main       # change to 'main' or other branch if you prefer
   workflow_dispatch: # allows manual run from Actions UI
 
 jobs:
