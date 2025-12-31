@@ -1,0 +1,13 @@
+resources:
+- name: print-test
+  type: git
+  source:
+    uri: https://github.com/your-org/print-test.git
+    branch: main
+
+jobs:
+- name: print-job
+  plan:
+  - get: print-test
+  - task: run-print
+    file: print-test/tasks/print-task.yml
