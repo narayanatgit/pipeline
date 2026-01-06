@@ -16,5 +16,4 @@ run:
     - |
       cd print-test
       python script1.py
-      python script2.py
-
+     
