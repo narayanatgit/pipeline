@@ -15,4 +15,6 @@ run:
     - -c
     - |
       cd print-test
-      python print.py
+      python script1.py
+      python script2.py
+
